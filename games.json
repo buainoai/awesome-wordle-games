@@ -1,0 +1,823 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-14",
+  "categories": [
+    {
+      "id": "classic",
+      "name": "Classic and Unlimited Wordle",
+      "description": "One-board word guessing and repeat-play versions."
+    },
+    {
+      "id": "rule-twists",
+      "name": "Rule Twists and Themed Wordle",
+      "description": "Familiar colored clues with an extra rule, theme, or objective."
+    },
+    {
+      "id": "multi-board",
+      "name": "Multi-Board Wordle",
+      "description": "Two, four, eight, or many hidden words solved with shared guesses."
+    },
+    {
+      "id": "word-puzzles",
+      "name": "Word Letter and Meaning Puzzles",
+      "description": "Daily guessing games centered on letters, word associations, and semantics."
+    },
+    {
+      "id": "geography",
+      "name": "Geography Maps and Flags",
+      "description": "Worldle-style country, state, city, and location guessing."
+    },
+    {
+      "id": "movies-tv",
+      "name": "Movies and TV",
+      "description": "Film identification puzzles based on stills, filmographies, and grids."
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "description": "Identify songs and artists from audio or other clues."
+    },
+    {
+      "id": "video-games",
+      "name": "Video Games and Fandom",
+      "description": "Guess video games, characters, and franchises."
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "description": "Identify athletes and teams from Wordle-like clues."
+    },
+    {
+      "id": "math",
+      "name": "Math and Numbers",
+      "description": "Solve hidden equations and number challenges."
+    },
+    {
+      "id": "colors",
+      "name": "Colors",
+      "description": "Guess colors or hexadecimal codes."
+    },
+    {
+      "id": "languages",
+      "name": "Wordle in Other Languages",
+      "description": "Word-guessing games for non-English and multilingual players."
+    },
+    {
+      "id": "related",
+      "name": "Related Daily Word Puzzles",
+      "description": "Adjacent word puzzles for people who enjoy the daily Wordle habit."
+    }
+  ],
+  "games": [
+    {
+      "id": "wordle",
+      "name": "Wordle",
+      "url": "https://www.nytimes.com/games/wordle/index.html",
+      "category": "classic",
+      "description": "The original daily five-letter guessing game from The New York Times.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "hello-wordl",
+      "name": "hello wordl",
+      "url": "https://hellowordl.net/",
+      "category": "classic",
+      "description": "Play Wordle-style puzzles with adjustable word lengths and repeat rounds.",
+      "modes": [
+        "unlimited"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "word-master",
+      "name": "Word Master",
+      "url": "https://octokatherine.github.io/word-master/",
+      "category": "classic",
+      "description": "An open-source Wordle-style game for playing additional rounds.",
+      "modes": [
+        "unlimited"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "wordle-infinite",
+      "name": "Wordle Infinite",
+      "url": "https://wordles.org/",
+      "category": "classic",
+      "description": "Keep playing new word-guessing puzzles without a daily limit.",
+      "modes": [
+        "unlimited"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "wordle-game",
+      "name": "Wordle Game",
+      "url": "https://wordlegame.org/",
+      "category": "classic",
+      "description": "A browser-based five-letter word game with daily and unlimited options.",
+      "modes": [
+        "daily",
+        "unlimited"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "word500",
+      "name": "Word500",
+      "url": "https://word500.com/",
+      "category": "classic",
+      "description": "A tougher word-deduction challenge with daily and practice play.",
+      "modes": [
+        "daily",
+        "practice"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "absurdle",
+      "name": "Absurdle",
+      "url": "https://qntm.org/files/absurdle/absurdle.html",
+      "category": "rule-twists",
+      "description": "An adversarial Wordle variant that avoids committing to an answer for as long as possible.",
+      "modes": [
+        "unlimited"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "antiwordle",
+      "name": "Antiwordle",
+      "url": "https://antiwordle.com/",
+      "category": "rule-twists",
+      "description": "Reverse the usual goal: avoid solving the hidden word for as long as you can.",
+      "modes": [],
+      "language": "en"
+    },
+    {
+      "id": "fibble",
+      "name": "Fibble",
+      "url": "https://fibble.xyz/",
+      "category": "rule-twists",
+      "description": "A Wordle-like game with misleading clues that must be reasoned through.",
+      "modes": [],
+      "language": "en"
+    },
+    {
+      "id": "phrazle",
+      "name": "Phrazle",
+      "url": "https://phrazle.org/",
+      "category": "rule-twists",
+      "description": "Guess a multi-word phrase using Wordle-style letter feedback.",
+      "modes": [
+        "daily",
+        "unlimited"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "phoodle",
+      "name": "Phoodle",
+      "url": "https://www.phoodle.net/",
+      "category": "rule-twists",
+      "description": "A daily five-letter word puzzle themed around food and cooking.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "dordle",
+      "name": "Dordle",
+      "url": "https://zaratustra.itch.io/dordle",
+      "category": "multi-board",
+      "description": "Solve two hidden words at the same time with shared guesses.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "quordle",
+      "name": "Quordle",
+      "url": "https://www.merriam-webster.com/games/quordle/",
+      "category": "multi-board",
+      "description": "Solve four five-letter words simultaneously on the official Merriam-Webster game.",
+      "modes": [
+        "daily",
+        "practice"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "octordle",
+      "name": "Octordle",
+      "url": "https://www.merriam-webster.com/games/octordle/",
+      "category": "multi-board",
+      "description": "Eight Wordle boards share your guesses in this multi-word challenge.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "hexordle",
+      "name": "Hexordle",
+      "url": "https://hexordle.com/",
+      "category": "multi-board",
+      "description": "A six-board Wordle-style puzzle for players who like multi-grid deduction.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "sedecordle",
+      "name": "Sedecordle",
+      "url": "https://sedecordle.com/",
+      "category": "multi-board",
+      "description": "Solve sixteen words with one common set of guesses.",
+      "modes": [
+        "daily",
+        "practice"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "duotrigordle",
+      "name": "Duotrigordle",
+      "url": "https://duotrigordle.com/",
+      "category": "multi-board",
+      "description": "A thirty-two-board Wordle variant built around shared guesses.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "polydle",
+      "name": "Polydle",
+      "url": "https://polydle.github.io/",
+      "category": "multi-board",
+      "description": "Choose how many Wordle boards to solve, with multiple challenge styles.",
+      "modes": [
+        "daily",
+        "unlimited"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "kilordle",
+      "name": "Kilordle",
+      "url": "https://www.kilordle.net/",
+      "category": "multi-board",
+      "description": "Take the multi-board idea to the extreme with one thousand hidden words.",
+      "modes": [],
+      "language": "en"
+    },
+    {
+      "id": "waffle",
+      "name": "Waffle",
+      "url": "https://wafflegame.net/",
+      "category": "word-puzzles",
+      "description": "Swap letters in an intersecting grid to solve six words.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "crosswordle",
+      "name": "Crosswordle",
+      "url": "https://crosswordle.com/",
+      "category": "word-puzzles",
+      "description": "A daily crossword-like letter-swapping puzzle with Wordle-inspired clues.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "squaredle",
+      "name": "Squaredle",
+      "url": "https://squaredle.app/",
+      "category": "word-puzzles",
+      "description": "Find connected words hidden inside a square letter grid.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "contexto",
+      "name": "Contexto",
+      "url": "https://contexto.me/",
+      "category": "word-puzzles",
+      "description": "Find the secret word through semantic similarity instead of letter positions.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "semantle",
+      "name": "Semantle",
+      "url": "https://semantle.com/",
+      "category": "word-puzzles",
+      "description": "Guess a daily word by meaning, with similarity clues between guesses.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "cemantle",
+      "name": "Cémantle",
+      "url": "https://cemantle.certitudes.org/",
+      "category": "word-puzzles",
+      "description": "A French-language daily semantic word-guessing challenge.",
+      "modes": [
+        "daily"
+      ],
+      "language": "fr"
+    },
+    {
+      "id": "worldle",
+      "name": "Worldle",
+      "url": "https://worldle.teuteuf.fr/",
+      "category": "geography",
+      "description": "Identify a country from its silhouette, with distance and direction hints.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "globle",
+      "name": "Globle",
+      "url": "https://globle-game.com/",
+      "category": "geography",
+      "description": "Search for a mystery country using a globe that colors guesses by proximity.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "flagle",
+      "name": "Flagle",
+      "url": "https://flagle.io/",
+      "category": "geography",
+      "description": "Guess a country from progressively revealed pieces of its flag.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "statele",
+      "name": "Statele",
+      "url": "https://statele.teuteuf.fr/",
+      "category": "geography",
+      "description": "Use a US state outline and geographic clues to identify the answer.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "travle",
+      "name": "Travle",
+      "url": "https://travle.earth/",
+      "category": "geography",
+      "description": "Find a route between two countries by naming countries along the way.",
+      "modes": [
+        "daily",
+        "practice"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "tradle",
+      "name": "Tradle",
+      "url": "https://oec.world/en/tradle/",
+      "category": "geography",
+      "description": "Identify a country from an export treemap and geographic feedback.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "countryle",
+      "name": "Countryle",
+      "url": "https://countryle.com/",
+      "category": "geography",
+      "description": "Narrow down the daily mystery country using geographic attributes.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "citydle",
+      "name": "Citydle",
+      "url": "https://citydle.com/",
+      "category": "geography",
+      "description": "Guess the mystery city in a new daily geography challenge.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "flagdle",
+      "name": "Flagdle",
+      "url": "https://flagdle.com/",
+      "category": "geography",
+      "description": "Practice identifying country flags and related geography clues.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "geogrid",
+      "name": "GeoGrid",
+      "url": "https://www.geogridgame.com/",
+      "category": "geography",
+      "description": "Complete a daily geography grid with places that fit intersecting clues.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "wheretaken",
+      "name": "WhereTaken",
+      "url": "https://wheretaken.teuteuf.fr/",
+      "category": "geography",
+      "description": "Guess where a photo was taken using visual and geographic clues.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "framed",
+      "name": "Framed",
+      "url": "https://framed.wtf/",
+      "category": "movies-tv",
+      "description": "Identify a film from up to six still frames.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "movie-grid",
+      "name": "Movie Grid",
+      "url": "https://moviegrid.io/",
+      "category": "movies-tv",
+      "description": "Name films that satisfy clues along the rows and columns of a grid.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "actorle",
+      "name": "Actorle",
+      "url": "https://actorle.com/",
+      "category": "movies-tv",
+      "description": "Guess the actor using filmography-based clues.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "cine2nerdle",
+      "name": "Cine2Nerdle",
+      "url": "https://cinenerdle.app/",
+      "category": "movies-tv",
+      "description": "A collection of daily film-themed puzzles involving movie titles, tiles, and trivia.",
+      "modes": [],
+      "language": "en"
+    },
+    {
+      "id": "bandle",
+      "name": "Bandle",
+      "url": "https://bandle.app/",
+      "category": "music",
+      "description": "Recognize the song as additional instruments enter the mix.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "spotle",
+      "name": "Spotle",
+      "url": "https://spotle.io/",
+      "category": "music",
+      "description": "Guess the mystery music artist from attribute-based clues.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "heardle-decades",
+      "name": "Heardle Decades",
+      "url": "https://heardledecades.com/",
+      "category": "music",
+      "description": "Guess songs from short audio clips across decades and genres.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "swiftle",
+      "name": "Swiftle",
+      "url": "https://swiftle.app/",
+      "category": "music",
+      "description": "A daily Taylor Swift song identification challenge.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "gamedle",
+      "name": "Gamedle",
+      "url": "https://www.gamedle.wtf/",
+      "category": "video-games",
+      "description": "Identify video games from covers, characters, and other clues.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "guess-the-game",
+      "name": "GuessThe.Game",
+      "url": "https://guessthe.game/",
+      "category": "video-games",
+      "description": "Identify a mystery video game as screenshots are revealed.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "loldle",
+      "name": "LoLdle",
+      "url": "https://loldle.net/",
+      "category": "video-games",
+      "description": "Guess League of Legends champions through several daily game modes.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "pokedle",
+      "name": "Pokédle",
+      "url": "https://pokedle.net/",
+      "category": "video-games",
+      "description": "Use Pokémon traits and other hints to identify the daily answer.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "poeltl",
+      "name": "Poeltl",
+      "url": "https://poeltl.nbpa.com/",
+      "category": "sports",
+      "description": "Guess the mystery NBA player using player attributes and comparisons.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "weddle",
+      "name": "Weddle",
+      "url": "https://www.weddlegame.com/",
+      "category": "sports",
+      "description": "Identify an NFL player from team, position, and other hints.",
+      "modes": [
+        "daily",
+        "unlimited"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "footdle",
+      "name": "Footdle",
+      "url": "https://www.footdle.com/",
+      "category": "sports",
+      "description": "A football player guessing puzzle built around daily clues.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "nerdle",
+      "name": "Nerdle",
+      "url": "https://nerdlegame.com/",
+      "category": "math",
+      "description": "Discover a hidden arithmetic equation using Wordle-style feedback.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "mathler",
+      "name": "Mathler",
+      "url": "https://www.mathler.com/",
+      "category": "math",
+      "description": "Find an equation that matches the target number within limited guesses.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "numberle",
+      "name": "Numberle",
+      "url": "https://numberle.org/",
+      "category": "math",
+      "description": "Solve a hidden mathematical equation in six tries.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "summle",
+      "name": "Summle",
+      "url": "https://summle.net/",
+      "category": "math",
+      "description": "Combine numbers and operations to reach the target total.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "countle",
+      "name": "Countle",
+      "url": "https://www.countle.org/",
+      "category": "math",
+      "description": "A browser-based daily numbers and arithmetic challenge.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "hexcodle",
+      "name": "Hexcodle",
+      "url": "https://hexcodle.com/",
+      "category": "colors",
+      "description": "Guess the daily hexadecimal color code from color feedback.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "colordle",
+      "name": "Colordle",
+      "url": "https://colordle.com/",
+      "category": "colors",
+      "description": "Use color hints to identify the daily target shade.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "colorfle",
+      "name": "Colorfle",
+      "url": "https://colorfle.app/",
+      "category": "colors",
+      "description": "A color-mixing guessing game with repeat-play puzzles.",
+      "modes": [
+        "unlimited"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "wordle-global",
+      "name": "Wordle Global",
+      "url": "https://wordle.global/",
+      "category": "languages",
+      "description": "Play a Wordle-style daily challenge in many languages.",
+      "modes": [
+        "daily"
+      ],
+      "language": "multilingual"
+    },
+    {
+      "id": "la-palabra-del-dia",
+      "name": "La palabra del día",
+      "url": "https://lapalabradeldia.com/",
+      "category": "languages",
+      "description": "A Spanish daily word-guessing game.",
+      "modes": [
+        "daily"
+      ],
+      "language": "es"
+    },
+    {
+      "id": "le-mot",
+      "name": "Le Mot",
+      "url": "https://wordle.louan.me/",
+      "category": "languages",
+      "description": "A French-language Wordle-style daily word puzzle.",
+      "modes": [
+        "daily"
+      ],
+      "language": "fr"
+    },
+    {
+      "id": "termo",
+      "name": "Termo",
+      "url": "https://term.ooo/",
+      "category": "languages",
+      "description": "A Portuguese word-guessing game with color-coded letter feedback.",
+      "modes": [
+        "daily"
+      ],
+      "language": "pt-BR"
+    },
+    {
+      "id": "poople",
+      "name": "Poople",
+      "url": "https://pooplegame.com/",
+      "category": "related",
+      "description": "Transform a four-letter word into POOP one letter at a time.",
+      "modes": [
+        "daily",
+        "unlimited"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "layers-game",
+      "name": "Layers Game",
+      "url": "https://layersgame.org/",
+      "category": "related",
+      "description": "Solve mini word puzzles, uncover connections, then crack a final meta puzzle.",
+      "modes": [
+        "daily",
+        "unlimited"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "wordiply",
+      "name": "Wordiply",
+      "url": "https://www.theguardian.com/games/wordiply",
+      "category": "related",
+      "description": "Build long words containing a given letter sequence.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "nyt-connections",
+      "name": "Connections",
+      "url": "https://www.nytimes.com/games/connections",
+      "category": "related",
+      "description": "Group sixteen words into four hidden categories.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "nyt-strands",
+      "name": "Strands",
+      "url": "https://www.nytimes.com/games/strands",
+      "category": "related",
+      "description": "Find themed words and a spangram hidden in a grid.",
+      "modes": [
+        "daily"
+      ],
+      "language": "en"
+    }
+  ]
+}
